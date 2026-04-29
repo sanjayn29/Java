@@ -14,5 +14,18 @@ class Ifelse{
         else{
             System.out.println("Grade C Fail : "+mark);
         }
+
+        System.out.print("Enter 1,2,3: ");
+        int n = sc.nextInt();
+        switch(n){
+            case 1:
+                System.out.println("1");
+                break;
+            case 2:
+                System.out.println("2");
+                break;
+            default:
+                System.out.println("3");
+        }
     }
 }
